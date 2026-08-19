@@ -1,7 +1,7 @@
 {
-  "name": "해외사업PM 포탈",
+  "name": "사업PM 포탈",
   "short_name": "PM 포탈",
-  "description": "해외사업PM 종합 대시보드 및 업무 포탈",
+  "description": "사업PM 종합 대시보드 및 업무 포탈",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>해외사업PM 포탈</title>
+<title>사업PM 포탈</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230f172a'/><circle cx='32' cy='26' r='14' fill='none' stroke='%2338bdf8' stroke-width='3'/><line x1='32' y1='12' x2='32' y2='40' stroke='%2338bdf8' stroke-width='2.5'/><line x1='18' y1='26' x2='46' y2='26' stroke='%2338bdf8' stroke-width='2.5'/><ellipse cx='32' cy='26' rx='7' ry='14' fill='none' stroke='%2338bdf8' stroke-width='2'/><rect x='10' y='44' width='44' height='6' rx='3' fill='%2338bdf8' opacity='.3'/><rect x='18' y='44' width='8' height='6' rx='2' fill='%2338bdf8'/><rect x='38' y='44' width='8' height='6' rx='2' fill='%2338bdf8'/></svg>">
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icon-192.png">
@@ -210,7 +210,7 @@ table tbody tr:hover{background:#f9fafb}
 <div class="login-overlay" id="login-overlay">
   <div class="login-card">
     <div class="logo-circle"><i class="ti ti-world"></i></div>
-    <h1>해외사업PM 포탈</h1>
+    <h1>사업PM 포탈</h1>
     <p>Google 계정으로 로그인하세요</p>
     <div id="g_id_onload"
       data-client_id="622963343299-bh7jv7r6hrngjdfsdkt6hmedv6qfb657.apps.googleusercontent.com"
@@ -239,7 +239,7 @@ table tbody tr:hover{background:#f9fafb}
   <div class="sidebar">
     <div class="sidebar-header">
       <div class="logo"><i class="ti ti-world"></i></div>
-      <div><div class="title">해외사업PM 포탈</div><div class="sub">Global Business Manager</div></div>
+      <div><div class="title">사업PM 포탈</div><div class="sub">Global Business Manager</div></div>
     </div>
     <div class="sidebar-nav" id="sidebar-nav"></div>
     <div style="padding:12px 16px;border-top:1px solid var(--border);flex-shrink:0">
@@ -264,7 +264,7 @@ table tbody tr:hover{background:#f9fafb}
   <div class="main">
     <div class="topbar">
       <button class="mobile-menu-btn" onclick="toggleMobileMenu()"><i class="ti ti-menu-2"></i></button>
-      <div class="breadcrumb">해외사업PM 포탈 › <b id="bc-text">종합 대시보드</b> <span style="font-size:10px;color:#cbd5e1;font-weight:400;margin-left:6px">made by 조현영 yeriel.jo</span></div>
+      <div class="breadcrumb">사업PM 포탈 › <b id="bc-text">종합 대시보드</b> <span style="font-size:10px;color:#cbd5e1;font-weight:400;margin-left:6px">made by 조현영 yeriel.jo</span></div>
       <div class="clock-bar">
         🇰🇷 <b>KR</b> <span id="clock-kr">--:--:--</span>
         <div class="sep"></div>🇹🇼 <b>TW</b> <span id="clock-tw">--:--</span>
@@ -2293,7 +2293,7 @@ function renderDevMeeting(){
 }
 
 function renderAI(){
-  document.getElementById('content-area').innerHTML='<div class="ai-panel"><div class="ai-msgs" id="ai-msgs"><div class="msg-ai">해외사업PM 포탈 AI입니다. 무엇을 도와드릴까요?</div></div><div class="ai-foot"><input type="text" id="ai-inp" placeholder="질문을 입력하세요..." onkeydown="if(event.key===\'Enter\')sendAI()"><button class="btn btn-primary" onclick="sendAI()"><i class="ti ti-send"></i></button></div></div>';
+  document.getElementById('content-area').innerHTML='<div class="ai-panel"><div class="ai-msgs" id="ai-msgs"><div class="msg-ai">사업PM 포탈 AI입니다. 무엇을 도와드릴까요?</div></div><div class="ai-foot"><input type="text" id="ai-inp" placeholder="질문을 입력하세요..." onkeydown="if(event.key===\'Enter\')sendAI()"><button class="btn btn-primary" onclick="sendAI()"><i class="ti ti-send"></i></button></div></div>';
 }
 function sendAI(){var inp=document.getElementById('ai-inp');var q=inp.value.trim();if(!q)return;var msgs=document.getElementById('ai-msgs');msgs.innerHTML+='<div class="msg-user">'+esc(q)+'</div><div class="msg-ai">처리 중입니다...</div>';inp.value='';msgs.scrollTop=msgs.scrollHeight;}
 
